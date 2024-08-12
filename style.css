@@ -1,7 +1,8 @@
+/* =============================================== */
 header {
     width: 100%;
     height: 65px;
-    border-bottom: 2px solid #b0b9bf;
+    border-bottom: 1px solid #E2E8F0;
 }
 
 header .wrapper {
@@ -33,34 +34,35 @@ ul li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.max-button, .signup {
-    width: 100px;
-    padding: 10px;
+/*  navar button setting start */
+.button-btn{
+    font-size: 14px;
+    padding: 8px 20px ;
     text-align: center;
-    transition: all 0.4s ease-in;
+    align-items: center;
+    border: none;
     cursor: pointer;
+    border: 1px solid gray;
+}
+.button-btn1{
+    font-size: 14px;
+    padding: 6px 19px ;
+    border: none;
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color: #334155;
+    color: #FFFFFF;
+}
+.button-btn1:hover{
+    background-color:#465871 ;
+    color: #FFFFFF;
 }
 
-.max-button {
-    border: 2px solid #776f6f;
-}
+/*  navar button setting end */
+/* =============================================== */
 
-.max-button:hover {
-    color: aliceblue;
-    background-color: rgb(35, 49, 35);
-}
 
-.signup {
-    color: aliceblue;
-    background-color: rgb(35, 49, 35);
-}
-
-.signup:hover {
-    color: rgb(0, 0, 0);
-    border: 2px solid #776f6f;
-    background-color: rgb(255, 255, 255);
-}
-
+/* =============================================== */
 .section-max {
     display: flex;
     justify-content: space-between;
@@ -68,16 +70,31 @@ ul li {
 }
 
 .section-max h1 {
-    width: 420px;
-    font-size: 40px;
+    width: 483px;
+    height: 96px;
+    gap: 0px;
+    opacity: 0px;
+    color: #0F172A;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+
 }
 
 .section-max p {
-    width: fit-content;
-    font-size: 14px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: 'left';
+    width: 592px; 
+    height: 78px;
+    gap: 0px;
+    opacity: 0px;
+   color: #0F172A;
+
 }
 
 .section-max .wrapper {
@@ -92,26 +109,52 @@ ul li {
     padding: 10px;
 }
 
+
 .max-button1 h2 {
-    width: 200px;
-    margin-top: 10px;
-    font-size: 10px;
-    text-align: center;
-    color: wheat;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(31, 116, 207);
-    border-radius: 10px;
-    padding: 10px;
+    width: Hug (238px)px;
+height: Fixed (48px)px;
+padding: 10px 24px 10px 24px;
+gap: 6px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+background-color: #3B82F6;
+color: white;
+
+
+}
+.section-max h2{
+    width: 190px;
+height: 22px;
+gap: 0px;
+opacity: 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
 }
 
 .max-button1 h2:hover {
-    background-color: rgb(54, 112, 173);
+    background-color:#4682e4;
     cursor: pointer;
 }
 
+/* =============================================== */
+
+
+/* =============================================== */
+
 .middle {
-    width: 100%;
-    height: fit-content;
+    width: Fixed (1,441px)px;
+    height: Hug (149px)px;
+    padding: 40px 80px 40px 80px;
+    gap: 0px;
+    justify: space-between;
+    opacity: 0px;
+    background: #F8FAFC;
+
+    
 }
 
 .main {
@@ -123,12 +166,19 @@ ul li {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #F8FAFC;
 }
 
 .main ul li {
+    width: Hug (192px)px;
+    height: Hug (69px)px;
+    gap: 6px;
+    opacity: 0px;
+    height: 50px;
+    gap: 0px;
+    border: 4px 0px 0px 0px;
+    opacity: 0px;
     text-align: center;
-    border-left: 2px solid rgb(171, 165, 165);
+    border-left: 2px solid #E2E8F0;
     padding: 10px;
 }
 
@@ -137,16 +187,46 @@ ul li {
 }
 
 .main ul li h3 {
-    font-size: 12px;
+    width: Hug (192px)px;
+    height: Hug (69px)px;
+    gap: 6px;
+    opacity: 0px;
+    
 }
+
+/* =============================================== */
+
+
+/* =============================================== */
 
 .head {
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 60px;
-}
+    width: Fixed (1,280px)px;
+    height: Hug (48px)px;
+    gap: 0px;
+    justify: space-between;
+    opacity: 0px;
 
+}
+.lopping{
+    width: Hug (1,441px)px;
+    height: Hug (4,010px)px;
+    top: 64px;
+    gap: 60px;
+    opacity: 0px;
+
+}
 .lopping ul {
+    width: Hug (286px)px;
+    height: Hug (224px)px;
+    padding: 24px 93px 24px 93px;
+    gap: 8px;
+    border-radius: 16px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,50 +234,54 @@ ul li {
 
 .lopping ul li {
     width: 300px;
-    padding: 10px;
     text-align: center;
-    background-color: #FFFFFF;
-    border: 2px solid grey;
+    border: 2px solid #E2E8F0;
     transition: all 0.5s ease-in;
     cursor: pointer;
-    border-radius: 5px;
+    width: Hug (286px)px;
+    height: Hug (224px)px;
+    padding: 24px 93px 24px 93px;
+    gap: 8px;
+    border-radius: 16px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    box-shadow: 0px 0px 8px 0px #3B82F61F;
 }
 
 .lopping ul li h2 {
     font-size: 13px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .lopping ul li h3 {
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .lopping ul li:hover {
-    background-color: #8da5a9;
-    transform: scale(1.1);
+    background-color: #37595f;
+    transform: scale(1);
     color: #F8FAFC;
 }
 
 .ui {
-    background-color: #bac9e0;
+    background-color: #E0F2FE;
     padding: 20px;
-    width: 30px;
-    border-radius: 50%;
+    /* width: 30px; */
+    border-radius: 20%;
 }
 
 .heade a {
     font-size: 13px;
     text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 60px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.logi {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+/* =============================================== */
+
+
+/* =============================================== */
 
 .section-map {
     width: 100%;
@@ -206,12 +290,28 @@ ul li {
     gap: 10px;
     align-items: center;
 }
-
-.section-map ul li {
-    width: 100%;
-    background-color: #f2f2f2;
+.homesection{
+    width: Fixed (1,280px)px;
+    height: Hug (410px)px;
+    gap: 24px;
+    opacity: 0px;
+}
+.section-map ul {
+    line-height: 2px; 
+    background-color: #FFFFFF;
+    width: Hug (298px)px;
+    height: Hug (338px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 8px;
+    border-radius: 16px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+.section-map ul li{
+    border: 1px solid #E2E8F0;
     padding: 30px;
-    line-height: 2px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 0px #3B82F61F;
 }
 
 .section-map h4, .section-map h5 {
@@ -229,50 +329,100 @@ ul li {
     font-size: 10px;
 }
 
+
+/* =============================================== */
+
+
+/* =============================================== */
+
 .mats ul li {
     width: fit-content;
     background-color: #FFFFFF;
-    box-shadow: 10px 10px #aa9090;
-    border: 1px solid #b9b0b0;
-    padding: 10px;
+    border: 1px solid #E2E8F0;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0px 0px 8px 0px #3B82F61F;
+
+    
+
 }
 
-.popup {
-    width: 220px;
-}
-
-.lll {
+.logi {
     display: flex;
-    background-color: #776f6f;
-    margin-right: 100px;
-    border-radius: 10px;
-    padding: 10px;
+    justify-content: space-between;
     align-items: center;
 }
 
-.map {
-    display: flex;
+h4{
+    font-weight: 300;
 }
+
 
 .potion ul {
     display: flex;
 }
 
-.lastpostion {
-    width: 100%;
-    padding: 9px;
+.section-loop ul{
+    width: Fill (1,280px)px;
+    height: Hug (281px)px;
+    gap: 26px;
+    opacity: 0px;
+
 }
+
+/* =============================================== */
+
+
+/* =============================================== */
 
 .potion ul li {
-    background-color: #f1f1f1;
-    box-shadow: 11px 11px #c8cccd;
-    border-radius: 10px;
+    width: Hug (212px)px;
+    height: Hug (281px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 16px;
+    border-radius: 16px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
 }
-
+.lastpostion {
+    width: 1440px;
+    height: 512px;
+    gap: 0px;
+    opacity: 0px; 
+    background-color: #F8FAFC;    
+}
 .potion h3 {
     font-size: 16px;
     width: 400px;
     line-height: 25px;
+}
+.potion{
+    width: Hug (1,776px)px;
+    height: Hug (276px)px;
+    top: 172px;
+    left: 80px;
+    gap: 16px;
+    opacity: 0px;
+}
+.potion ul li{
+    width: Hug (432px)px;
+    height: Hug (276px)px;
+    padding: 24px 0px 0px 0px;
+    gap: 8px;
+    border-radius: 16px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #E2E8F0;
+    box-shadow: 0px 0px 8px 0px #3B82F61F;
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logick{
+    display: flex;
 }
 
 .lastbar {
@@ -290,7 +440,38 @@ ul li {
     width: 100%;
     height: 100vh;
 }
+.about{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px;
+    width: Fixed (1,280px)px;
+    height: Hug (48px)px;
+    gap: 0px;
+    justify: space-between;
+    opacity: 0px;
+}
+.lll {
+    display: flex;
+    background-color: #776f6f;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+}
 
+/* =============================================== */
+
+
+/* =============================================== */
+
+
+.crenter{
+    width: Hug (1,123px)px;
+    height: Hug (870px)px;
+    gap: 60px;
+    opacity: 0px;
+
+}
 .crenter .wrapper {
     display: flex;
     justify-content: space-around;
@@ -299,39 +480,66 @@ ul li {
 }
 
 .lef h6 {
-    font-size: 20px;
-    width: 600px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #1D2939;
 }
-
+.point{
+    width: 549px;
+    height: 52px;
+    gap: 0px;
+    opacity: 0px;
+}
+.lef{
+    width: Hug (549px)px;
+    height: Hug (154px)px;
+    gap: 16px;
+    opacity: 0px;
+}
 .lef h1 {
-    font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   line-height: 25.6px;
+   text-align: left;
 }
 
 .max-button11 {
     display: flex;
-    width: 210px;
-    border-radius: 20px;
-    padding: 2px;
-    background-color: rgb(0, 0, 0);
+    align-items: center;
+    width: fit-content;
+    height: 22px;
+    gap: 10px;
+    opacity: 0px;
+    background-color:#020617;
+    padding: 10px;
+    border-radius: 10px;
+    
+
 }
 
 .max-button11 h2 {
-    width: 200px;
-    margin-top: 10px;
-    font-size: 10px;
-    text-align: center;
-    color: wheat;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-radius: 10px;
-    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+    color: #FFFFFF;
 }
 
 .max-button11:hover {
-    background-color: rgb(31, 32, 34);
+    background-color: rgb(64, 65, 68);
     cursor: pointer;
 }
+
+/* =============================================== */
+
+
+/* =============================================== */
+
 
 footer {
     width: 100%;
@@ -339,7 +547,16 @@ footer {
     margin-top: 200px;
     background-color: #1E293B;
 }
+.footer-main{
+    width: Fixed (1,280px)px;
+    height: Hug (183px)px;
+    top: 80px;
+    left: 80px;
+    gap: 0px;
+    justify: space-between;
+    opacity: 0px;
 
+}
 .footer-main ul li {
     display: flex;
     align-items: center;
@@ -358,14 +575,19 @@ footer {
 .descption {
     display: flex;
     margin-left: 80px;
-    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #CBD5E1;
 }
 
 .descption h3 {
     font-size: 10px;
-    color: #FFFFFF;
+    color: #CBD5E1;
     width: 300px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .love-swc {
@@ -378,19 +600,27 @@ footer {
 .love-swc ul li h1 {
     font-size: 20px;
     color: #FFFFFF;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .love-swc ul li h4 a {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #CBD5E1;
     text-decoration: none;
-    color: #FFFFFF;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .love-swc ul li h4 a:hover {
     color: orangered;
 }
+
+/* =============================================== */
+
+
+/* =============================================== */
 
 /* Responsive Design */
 @media (max-width: 768px) {
