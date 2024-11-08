@@ -1,0 +1,137 @@
+/* Basic Styling for the Section */
+.homesection {
+    width: 100%;
+    /* padding: 24px; */
+    /* background-color: #f9f9f9; */
+}
+
+.logi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 850px;
+    margin-bottom: 16px;
+}
+
+.head {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.heade a {
+    color: #0073e6;
+    text-decoration: none;
+    /* margin-right: 50px; */
+    font-size: 14px;
+}
+
+.section-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-map ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.section-map ul li {
+    /* background-color: #E0F2FE; */
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 15px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(59, 130, 246, 0.1);
+    text-align: center;
+    /* transition: transform 0.3s ease; */
+}
+
+
+
+.section-map ul li img {
+    /* width: 100%; */
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+/* Headings and Text Styling */
+.section-map ul li h4 {
+    font-size: 16px;
+    /* color: #053e7e; */
+    text-align: start;
+    margin: 8px 0;
+}
+.section-map ul li h4 {
+    font-size: 16px;
+    /* color: #053e7e; */
+    text-align: start;
+    margin: 8px 0;
+}
+
+.section-map ul li h5 {
+    font-size: 14px;
+    color: #333;
+    text-align: start;
+    font-weight: bold;
+    margin: 4px 0;
+}
+
+.section-map ul li .star {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: start;
+    /* margin-top: 10px; */
+    
+}
+
+.section-map ul li .star img {
+    width: 16px;
+    height: 16px;
+}
+
+.section-map ul li .star h5 {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #555;
+}
+
+.section-map ul li h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: start;
+    margin-top: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section-map ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .head {
+        font-size: 20px;
+    }
+
+    .heade a {
+        font-size: 12px;
+    }
+
+    .section-map ul li {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .section-map ul li h4, .section-map ul li h5, .section-map ul li h3 {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,97 @@
+/* Middle Section Container */
+.middle {
+    width: 100%;
+    background-color: #f1f1f1; /* Light background for contrast */
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* UL and LI Styling */
+.main ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main ul li {
+    width: 280px;
+    border-left: 2px solid #d5d7d8; /* Left border with color */
+    padding: 15px;
+    padding-left: 12px; /* Adjusted spacing around the left border */
+    text-align: center;
+    height: 150px;
+}
+
+
+
+/* Headings Styling */
+.main ul li h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.main ul li h3 {
+    font-size: 14px;
+    color: #333333;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .main ul {
+        gap: 15px;
+    }
+
+    .main ul li {
+        width: 150px;
+        padding: 10px;
+    }
+
+    .main ul li h1 {
+        font-size: 28px;
+    }
+
+    .main ul li h3 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main ul {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .main ul li {
+        width: 45%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .main ul li {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .main ul li h1 {
+        font-size: 24px;
+    }
+
+    .main ul li h3 {
+        font-size: 14px;
+    }
+}

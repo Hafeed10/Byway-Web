@@ -1,0 +1,97 @@
+.section-max {
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    height: 600px;
+    gap: 0px;
+    opacity: 0px;
+    flex-wrap: wrap;
+
+}
+
+.section_item {
+    width: Hug (592px)px;
+    height: Hug (262px)px;
+    top: 168.5px;
+    left: 80px;
+    gap: 24px;
+    opacity: 0px;
+    display: flex;
+
+}
+
+.section-max h1 {
+    width: 483px;
+    height: 96px;
+    gap: 0px;
+    opacity: 0px;
+    color: #0F172A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+
+}
+
+.section-max p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    
+
+}
+
+.background {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-max .wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.background ul li img {
+    width: 600px;
+    padding: 10px;
+}
+
+
+.max-button1 h2 {
+    width: Hug (238px)px;
+    height: Fixed (48px)px;
+    padding: 10px 24px 10px 24px;
+    gap: 6px;
+    border-radius: 8px;
+    color: white;
+    opacity: 0px;
+    background-color: #115bd2ea;
+    
+    
+
+
+}
+
+.section-max h2 {
+    width: 190px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+}
+
+.max-button1 h2:hover {
+    background-color: #4682e4;
+    cursor: pointer;
+}
