@@ -7,21 +7,32 @@
 
 .section-locl {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 16px;
+    justify-content: space-between; /* Aligns items on the ends */
+    align-items: center; /* Centers items vertically */
+    margin-bottom: 16px; /* Adds space below the section */
+    padding: 0 16px; /* Optional: Adds horizontal padding */
 }
 
 .head {
     font-size: 24px;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #333; /* Optional: Adds a darker color for better readability */
+    margin: 0; /* Resets default margin */
 }
 
 .heade a {
     color: #0073e6;
-    text-decoration: none;
-    margin-right: 60px;
+    text-decoration: none; /* Removes underline */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 60px; /* Adds space to the right of the link */
     font-size: 14px;
+    font-weight: 500; /* Optional: Slightly thicker font for visibility */
+}
+
+.heade a:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover */
+    color: #005bb5; /* Optional: Darker shade for hover state */
 }
 
 .lopping {
@@ -51,11 +62,6 @@
     box-shadow: 0 4px 8px rgba(59, 130, 246, 0.1);
 }
 
-.margin ul li:hover {
-    background-color: #37595f;
-    color: #fff;
-}
-
 .margin ul li h2,
 .margin ul li h3 {
     margin: 8px 0;
@@ -69,6 +75,7 @@
 
 .margin ul li h3 {
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
     color: #333;
 }
 
@@ -78,7 +85,7 @@
     padding: 20px;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
+    border-radius: 20px;
     margin: 0 auto;
     display: block;
 }

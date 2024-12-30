@@ -1,21 +1,17 @@
-/* Middle Section Container */
 .middle {
     width: 100%;
-    background-color: #f1f1f1; /* Light background for contrast */
+    background-color: rgb(244, 250, 244); 
 }
-
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-/* UL and LI Styling */
 .main ul {
+    width: 90%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -23,24 +19,41 @@
 
 .main ul li {
     width: 280px;
-    border-left: 2px solid #d5d7d8; /* Left border with color */
-    padding: 15px;
-    padding-left: 12px; /* Adjusted spacing around the left border */
     text-align: center;
     height: 150px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    position: relative; 
 }
 
+.main ul li::after {
+    content: ""; 
+    position: absolute;
+    right: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 2px; 
+    height: 50px; 
+    background-color: #c1c9d5;
+}
 
+.main ul li:last-child::after {
+    display: none; 
+}
 
-/* Headings Styling */
 .main ul li h1 {
     font-size: 32px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 8px;
 }
 
 .main ul li h3 {
     font-size: 14px;
     color: #333333;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Responsive Adjustments */

@@ -37,6 +37,7 @@
 .section-max p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    width: 560px;
     font-weight: 400;
     line-height: 25.6px;
     text-align: left;
@@ -64,16 +65,16 @@
 
 
 .max-button1 h2 {
-    width: Hug (238px)px;
-    height: Fixed (48px)px;
-    padding: 10px 24px 10px 24px;
-    gap: 6px;
+    padding: 15px 30px ;
     border-radius: 8px;
     color: white;
     opacity: 0px;
     background-color: #115bd2ea;
-    
-    
+
+
+
+
+
 
 
 }

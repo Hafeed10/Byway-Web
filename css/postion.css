@@ -1,0 +1,253 @@
+.lastpostion {
+    width: 100%;
+    background-color: rgb(244, 250, 244);
+    padding: 40px 0;
+}
+
+.map {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 0 100px;
+}
+
+.about {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(5, 5, 62);
+    text-align: left;  /* Ensures text is aligned to the left */
+}
+
+.logick {
+    display: flex;
+    align-items: center;
+}
+
+.lll, .lll-sec {
+    display: flex;
+    background-color: #776f6f;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center; /* Centers the content of the buttons */
+    cursor: pointer;
+}
+
+.lll-sec img, .lll img {
+    width: 30px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.potion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.potion ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.potion ul li {
+    background-color: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    box-shadow: 0px 0px 8px 0px #3B82F61F;
+    padding: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.potion h3 {
+    font-size: 14px;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 5, 62);
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.lastpostion .des {
+    text-align: left; /* Aligning name to the left */
+}
+
+.lastbar img {
+    width: 25px;
+}
+
+.quotes {
+    margin-bottom: 10px;
+}
+
+.potion ul li {
+    width: Hug (212px)px;
+    height: Hug (281px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 16px;
+    border-radius: 16px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+.lastpostion {
+    width: 100%;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #eceff4;
+}
+
+.potion h3 {
+    font-size: 14px;
+    width: 400px;
+    line-height: 20px;
+}
+
+.potion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    left: 100px;
+
+}
+
+.about {
+    font-size: 20px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify: space-between;
+}
+
+.potion ul li {
+    width: fit-content;
+    gap: 8px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px;
+    border: 1px solid #E2E8F0;
+    box-shadow: 0px 0px 8px 0px #3B82F61F;
+}
+
+.potion h3 {
+    width: 340px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+
+.logick {
+    display: flex;
+}
+
+.lastbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.des {
+    display: block;
+}
+
+.crenter {
+    width: 100%;
+}
+.lll {
+    display: flex;
+    background-color: #776f6f;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+}
+
+.lll-sec {
+    display: flex;
+    background-color: #776f6f;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+}
+
+.lll-sec img {
+    width: 30px;
+    padding: px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .map {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px; /* Adjust padding for smaller screens */
+    }
+
+    .about {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .potion ul li {
+        width: 90%;
+        padding: 40px; /* Reducing padding for smaller screen sizes */
+    }
+
+    .logick {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .potion h3 {
+        font-size: 12px;
+    }
+
+    .lastbar img {
+        width: 20px;
+    }
+
+    .lastpostion {
+        padding: 20px;
+    }
+}

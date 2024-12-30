@@ -1,28 +1,37 @@
-/* Basic Styling for the Section */
 .homesection {
-    width: 100%;
-    /* padding: 24px; */
-    /* background-color: #f9f9f9; */
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 24px;
 }
 
 .logi {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 850px;
     margin-bottom: 16px;
+    padding: 0 16px;
 }
 
 .head {
     font-size: 24px;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
 }
 
 .heade a {
     color: #0073e6;
     text-decoration: none;
-    /* margin-right: 50px; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 60px;
     font-size: 14px;
+    font-weight: 500;
+}
+
+.heade a:hover {
+    text-decoration: underline;
+    color: #005bb5;
 }
 
 .section-map {
@@ -33,7 +42,7 @@
 
 .section-map ul {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
     padding: 0;
     list-style: none;
@@ -41,36 +50,31 @@
 }
 
 .section-map ul li {
-    /* background-color: #E0F2FE; */
     border: 1px solid #E2E8F0;
     border-radius: 16px;
     padding: 15px;
     width: 280px;
     box-shadow: 0 4px 8px rgba(59, 130, 246, 0.1);
     text-align: center;
-    /* transition: transform 0.3s ease; */
+    transition: transform 0.3s ease; /* Add hover animation */
 }
 
-
+.section-map ul li:hover {
+    transform: scale(1.05); /* Subtle scale effect on hover */
+}
 
 .section-map ul li img {
-    /* width: 100%; */
     border-radius: 8px;
     margin-bottom: 12px;
 }
 
-/* Headings and Text Styling */
 .section-map ul li h4 {
     font-size: 16px;
-    /* color: #053e7e; */
     text-align: start;
     margin: 8px 0;
-}
-.section-map ul li h4 {
-    font-size: 16px;
-    /* color: #053e7e; */
-    text-align: start;
-    margin: 8px 0;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #053e7e; /* Optional: Accent color */
 }
 
 .section-map ul li h5 {
@@ -78,6 +82,7 @@
     color: #333;
     text-align: start;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 4px 0;
 }
 
@@ -86,8 +91,6 @@
     align-items: center;
     gap: 5px;
     justify-content: start;
-    /* margin-top: 10px; */
-    
 }
 
 .section-map ul li .star img {
@@ -97,9 +100,8 @@
 
 .section-map ul li .star h5 {
     font-size: 12px;
-    display: flex;
-    align-items: center;
     color: #555;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-map ul li h3 {
@@ -107,6 +109,7 @@
     font-weight: bold;
     text-align: start;
     margin-top: 12px;
+    color: #2d3748; /* Optional: Darker color */
 }
 
 /* Responsive Design */
@@ -131,7 +134,10 @@
         padding: 16px;
     }
 
-    .section-map ul li h4, .section-map ul li h5, .section-map ul li h3 {
+    .section-map ul li h4, 
+    .section-map ul li h5, 
+    .section-map ul li h3 {
         font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
